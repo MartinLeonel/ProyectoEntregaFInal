@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+
+/* COLOR: #007377 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+/* NAV */
+
+.bg-colornav {
+  background-color: rgb(192, 192, 52);
+}
+
+.navbar-brand {
+  color: rgb(109, 35, 35);
+  font-size: 40px;
+  font-family: 'Creepster', cursive;
+}
+
+.navbar-toggler {
+  background-color: rgb(109, 35, 35);
+  ;
+}
+
+.carousel{
+  margin-top: 80px;
+}
+
+.main{
+  margin-top: 80px;
+}
+.retrato__tarantino{
+  width: 100%;
+  height: auto;
+}
+
+.biografia__profesion{
+  color:rgb(109, 35, 35);
+}
+
+
+/* .fondo-fijo {
+  background-image: url(../assets/Fondo\ index.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;w
+  height: auto;
+}
+*/
