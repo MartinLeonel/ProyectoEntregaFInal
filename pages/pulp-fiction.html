@@ -1,82 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
     <!-- LINK BOOSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- VINCULO CON MI CSS -->
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
 
-    <title>QUENTIN TARANTINO</title>
-</head>
+    <title>PULP FICTION</title>
+  </head>
 
-<body class="body">
+  <body class="body">
     <header class="header" id="header">
         <nav class="navbar navbar-dark bg-colornav fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">QUENTIN TARANTINO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/biografia.html">Biografia</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Filmografia
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="../pages/reservoir-dogs.html">Reservoir Dogs</a></li>
-                                    <li><a class="dropdown-item" href="../pages/pulp-fiction.html">Pulp Fiction</a></li>
-                                    <li><a class="dropdown-item" href="../pages/Jackie-brown.html">Jackie Brown</a></li>
-                                    <li><a class="dropdown-item" href="../pages/kill-bill-1.html">Kill Bill Vol. 1</a></li>
-                                    <li><a class="dropdown-item" href="../pages/kill-bill-2.html">Kill Bill Vol. 2</a></li>
-                                    <li><a class="dropdown-item" href="../pages/death-proof.html">Death Proof</a></li>
-                                    <li><a class="dropdown-item" href="../pages/Inglourius-basterds.html">Inglourius Basterds</a></li>
-                                    <li><a class="dropdown-item" href="../pages/django-unchained.html">Django Unchained</a></li>
-                                    <li><a class="dropdown-item" href="../pages/once-upon.html">Once upon a time in Hollywood</a></li>
-                                    
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Q. T.</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+              <div class="offcanvas-header bg-colornav letra__navbar">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  Menu
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body navbar-toggler">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 letra__navbar">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/biografia.html"
+                      >Biografia</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Filmografia
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="../pages/reservoir-dogs.html"
+                          >Reservoir Dogs</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/pulp-fiction.html"
+                          >Pulp Fiction</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/Jackie-brown.html"
+                          >Jackie Brown</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/kill-bill-1.html"
+                          >Kill Bill Vol. 1</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/kill-bill-2.html"
+                          >Kill Bill Vol. 2</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/death-proof.html"
+                          >Death Proof</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="../pages/Inglourius-basterds.html"
+                          >Inglourius Basterds</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="../pages/django-unchained.html"
+                          >Django Unchained</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../pages/once-upon.html"
+                          >Once upon a time in Hollywood</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </nav>
-    </header>
-
+      </header>
     <main class="main" id="main">
-        <section class="first">
-            <div>
-                <h1>¿QUIEN ES QUENTIN TARANTINO?</h1>
+        <section class="bg-light">
+            <div class="container ">
+                <div class="row mt-5">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s7EdQ4FqbhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="col">
+                    <p class="lead">La vida de un boxeador, dos sicarios, la esposa de un gánster y dos bandidos se entrelaza en una historia de violencia y redención.</p>
+                  </div>
+                </div>
+        </section>
+        <section class="bg-light">
+            <div class="container ">
+                <div class="row mt-5">
+                  <div class="col">
+                    <p class="lead">Pulp Fiction es la película más original que rompe las reglas que he visto. En lugar de seguir la estructura de 3 actos ampliamente utilizada, Pulp Fiction crea la suya propia y aunque las 3 historias pueden parecer completamente desconectadas al principio, una vez que miras de cerca puedes encontrar los temas subyacentes que todos comparten. Cualquiera que diga que la película carece de enfoque o no tiene sentido no ha analizado lo suficiente. Recomiendo mucho esta película ya que es la número uno en mi lista de mis películas favoritas de todos los tiempos.</p>
+                  </div>
+                  <div class="col">
+                    <img src="../assets/pulp fiction.jpg" alt="Pulp Fiction Poster">
+                  </div>
+                </div>
         </section>
     </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  
+  <footer class="text-center text-white" style="background-color: #f1f1f1">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section>
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.facebook.com/Tarantino.Archives"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
 
-    <footer>
-        
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</body>
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://twitter.com/QuentTarantino"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
 
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.instagram.com/tarantinoxx/?hl=es"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.linkedin.com/in/martin-leonel-nievas-padin-b80b17170/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://github.com/MartinLeonel"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

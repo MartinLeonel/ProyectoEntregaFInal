@@ -1,64 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
-
-
-/* COLOR: #007377 */
-
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap");
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-ul,
-li {
-  list-style-type: none;
-}
+ul li {
+  list-style-type: none; }
 
 /* NAV */
-
 .bg-colornav {
-  background-color: rgb(192, 192, 52);
-}
+  background-color: #c0c034; }
 
 .navbar-brand {
-  color: rgb(109, 35, 35);
+  color: #6d2323;
   font-size: 40px;
-  font-family: 'Creepster', cursive;
-}
+  font-family: "Creepster", cursive; }
 
 .navbar-toggler {
-  background-color: rgb(109, 35, 35);
-  ;
-}
+  background-color: #6d2323; }
 
-.carousel{
-  margin-top: 80px;
-}
+.carousel {
+  margin-top: 120px; }
 
-.main{
-  margin-top: 80px;
-}
-.retrato__tarantino{
+.main {
+  margin-top: 120px; }
+
+.retrato__tarantino {
   width: 100%;
-  height: auto;
-}
+  height: auto; }
 
-.biografia__profesion{
-  color:rgb(109, 35, 35);
-}
+.biografia__profesion {
+  color: #6d2323; }
 
-
-/* .fondo-fijo {
-  background-image: url(../assets/Fondo\ index.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;w
-  height: auto;
-}
-*/
+.letra__navbar {
+  font-family: "Montserrat", sans-serif; }

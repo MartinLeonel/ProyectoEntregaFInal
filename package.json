@@ -1,0 +1,16 @@
+{
+  "name": "Proyecto Final",
+  "version": "1.0",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.3",
+    "fontawesome": "^5.6.3"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
